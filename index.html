@@ -26,4 +26,34 @@ title: bend on GitHub
 </div>
 
 
-
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 6000,
+  width: 250,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#4f494f',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#211c21',
+      color: '#ffffff',
+      links: '#5f65d9'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'all'
+  }
+}).render().setUser('bend66').start();
+</script>
