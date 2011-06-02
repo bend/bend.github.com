@@ -10,6 +10,9 @@ body {
 
 }
 
+body a {
+	color:#eaeaea;
+}
 #title {
 	margin-left:20%;
 }
@@ -37,3 +40,5 @@ body {
 h1, h2, h3, h4, h5, h6, strong, dt {
 	font-weight: bold;
 }
+
+
