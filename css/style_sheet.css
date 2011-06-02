@@ -1,0 +1,39 @@
+
+body {
+	margin: 0.5em 0;
+	text-shadow: black 2px 2px 2px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+	color: #eaeaea;
+	background-image:url('../img/bg.jpg');
+	background-repeat:repeat;
+
+}
+
+#title {
+	margin-left:20%;
+}
+
+#description {
+	margin-left:20%;
+}
+
+#projects {
+	width:440px;
+	min-height:60px;
+	padding:10px;
+	margin:10px;
+	background:#4f494f;
+}
+
+.fright {
+	float:right;
+}
+
+.fleft {
+	float:left;
+}
+
+h1, h2, h3, h4, h5, h6, strong, dt {
+	font-weight: bold;
+}
